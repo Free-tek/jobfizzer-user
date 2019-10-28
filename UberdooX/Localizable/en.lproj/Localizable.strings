@@ -1,0 +1,422 @@
+/* 
+  Localizable.strings
+  UberdooX
+
+  Created by Pyramidions on 19/11/18.
+  Copyright © 2018 Uberdoo. All rights reserved.
+*/
+
+// SignInViewController
+
+"PASSWORD" = "PASSWORD";
+"EMAIL ADDRESS" = "EMAIL ADDRESS";
+"Jobfizzer" = "Jobfizzer";
+"Sign in" = "Sign in";
+"LOGIN" = "LOGIN";
+"or sign in with:" = "or sign in with:";
+"Don't have an account?" = "Don't have an account?";
+"Forgot Password?" = "Forgot Password?";
+"Validation Failed" = "Validation Failed";
+"Enter mail Id" = "Enter mail Id";
+"Invalid Email Id" = "Invalid Email Id";
+"Enter the Password" = "Enter the Password";
+"Logging in..." = "Logging in...";
+"Login Failed" = "Login Failed";
+"Oops" = "Oops";
+"Alert" = "Alert";
+
+// SignUpViewController
+
+"PASSWORD" = "PASSWORD";
+"PHONE NUMBER" = "PHONE NUMBER";
+"EMAIL ADDRESS" = "EMAIL ADDRESS";
+"FIRST NAME" = "FIRST NAME";
+"LAST NAME" = "LAST NAME";
+"SIGNUP" = "SIGNUP";
+"Already have an account?" = "Already have an account?";
+"Sign up" = "Sign up";
+"Jobfizzer" = "Jobfizzer";
+"OK" = "OK";
+"Validation Failed" = "Validation Failed";
+"Enter Lastname" = "Enter Lastname";
+"Enter Email Id" = "Enter Email Id";
+"Invalid Email Id" = "Invalid Email Id";
+"Enter Phone" = "Enter Phone";
+"Enter Password" = "Enter Password";
+"Password should be minimum 6 characters" = "Password should be minimum 6 characters";
+"Signing up..." = "Signing up...";
+"Signup Failed" = "Signup Failed";
+"Signup Successful" = "Signup Successful";
+"Please login" = "Please login";
+"OK" = "OK";
+"Oops" = "Oops";
+
+// ForgotPasswordViewController
+
+"Email" = "Email";
+"Next" = "Next";
+"Enter your email to receive a verification code" = "Enter your email to receive a verification code";
+"Forgot Password" = "Forgot Password";
+"OK" = "OK";
+"Sending OTP..." = "Sending OTP...";
+"Failed" = "Failed";
+"Oops" = "Oops";
+"Validation Failed" = "Validation Failed";
+"Invalid Email" = "Invalid Email";
+
+// OTPViewController
+
+"Enter verification code" = "Enter verification code";
+"VERIFY" = "VERIFY";
+"OK" = "OK";
+"Sending OTP..." = "Sending OTP...";
+"Failed" = "Failed";
+"Oops" = "Oops";
+"Validation Failed" = "Validation Failed";
+"Invalid OTP" = "Invalid OTP";
+
+// ResetOtpViewController
+
+"Reset Password" = "Reset Password";
+"PASSWORD" = "PASSWORD";
+"CONFIRM PASSWORD" = "CONFIRM PASSWORD";
+"RESET" = "RESET";
+"Please enter a Password" = "Please enter a Password";
+"Changing your password..." = "Changing your password...";
+"Login Failed" = "Login Failed";
+"Password doesn't match" = "Password doesn't match";
+"Password Changed Successfully" = "Password Changed Successfully";
+"Please login" = "Please login";
+"Passwords do not match!" = "Passwords do not match!";
+
+// OnboardViewController
+
+"CONTINUE WITHOUT LOGIN" = "CONTINUE WITHOUT LOGIN";
+"SIGN IN" = "SIGN IN";
+"SIGN UP" = "SIGN UP";
+"Jobfizzer is your one stop destination for all lifestyle services. We help you hire local professionals."  ="Jobfizzer is your one stop destination for all lifestyle services. We help you hire local professionals.";
+"Get the best wedding photographer near you and capture your special day to cherish later." = "Get the best wedding photographer near you and capture your special day to cherish later.";
+"Transform your house/office into your dream place with our interior design experts." = "Transform your house/office into your dream place with our interior design experts.";
+"Do you want to look great on a special occassion. Hire the best beautician in town." = "Do you want to look great on a special occassion. Hire the best beautician in town.";
+"Jobfizzer" = "Jobfizzer";
+"Photographer" = "Photographer";
+"Interior Design" = "Interior Design";
+"Beautician" = "Beautician";
+
+// HomeViewController
+
+"Fetching Services..." = "Fetching Services...";
+"Oops" = "Oops";
+"Please enable your location" = "Please enable your location";
+
+// EditProfileViewController
+
+"Edit Profile" = "Edit Profile";
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Phone number" = "Phone number";
+"SAVE" = "SAVE";
+"Fetching Profile Details..." = "Fetching Profile Details...";
+"Camera" = "Camera";
+"Photo Library" = "Photo Library";
+"Cancel" = "Cancel";
+"Uploading Image" = "Uploading Image";
+"Invalid Phone Number" = "Invalid Phone Number";
+"Invalid Last Name" = "Invalid Last Name";
+"Invalid First Name" = "Invalid First Name";
+"Updating Profile Details..." = "Updating Profile Details...";
+
+// AccountViewController
+
+"Guest User" = "Guest User";
+"Profile" = "Profile";
+"Change Password" = "Change Password";
+"About Us" = "About Us";
+"Help and FAQ" = "Help and FAQ";
+"Addresses" = "Addresses";
+"Change Theme" = "Change Theme";
+"Logout" = "Logout";
+"Login" = "Login";
+"Logging out..." = "Logging out...";
+
+// MessagesViewController
+
+"Chat List" = "Chat List";
+"Loading..." = "Loading...";
+"Ok" = "Ok";
+
+
+// SubCategoriesViewController
+
+"Sub Categories" = "Sub Categories";
+"Fetching Services..." = "Fetching Services...";
+
+// BookingDetailViewController
+
+"Hours" = "Hours";
+"Total" = "Total";
+"TAX" = "TAX";
+"Booking Status" = "Booking Status";
+"CANCEL" = "CANCEL";
+"Booking Name" = "Booking Name";
+"Booking ID" = "Booking ID";
+"Date and Time" = "Date and Time";
+"Address" = "Address";
+"Track Provider" = "Track Provider";
+"Service Status" = "Service Status";
+"Payment pending" = "Payment pending";
+"Review pending" = "Review pending";
+"Job Completed" = "Job Completed";
+"On the way" = "On the way";
+"Work in progress" = "Work in progress";
+"Pending" = "Pending";
+"Accepted" = "Accepted";
+"Rejected" = "Rejected";
+"Cancelled by Provider" = "Cancelled by Provider";
+"Cancelled by User" = "Cancelled by User";
+"Pending" = "Pending";
+"Confirm" = "Confirm";
+"Are you sure you want to cancel this booking?" = "Are you sure you want to cancel this booking?";
+"Yes" = "Yes";
+"No" = "No";
+"Cancelling your Booking..." = "Cancelling your Booking...";
+"The Booking has been canceled" = "The Booking has been canceled";
+
+
+// AddressesViewController
+
+"Addresses" = "Addresses";
+"Fetching Addresses..." = "Fetching Addresses...";
+"Confirm" = "Confirm";
+"Are you sure you want to delete this address?" = "Are you sure you want to delete this address?";
+"Removing service..." = "Removing service...";
+
+// SelectTimeAndAddressViewController
+
+"Select Time & Place" = "Select Time & Place";
+"DAY & TIME" = "DAY & TIME";
+"NO TIME SLOTS AVAILABLE. TRY ANOTHER DATE." = "NO TIME SLOTS AVAILABLE. TRY ANOTHER DATE.";
+"ADDRESS" = "ADDRESS";
+"(OR)" = "(OR)";
+"CHOOSE PROVIDER" = "CHOOSE PROVIDER";
+"OFFER JOB OUT TO LOCAL PROVIDERS" = "OFFER JOB OUT TO LOCAL PROVIDERS";
+"Fetching Addresses..." = "Fetching Addresses...";
+"Address Required" = "Address Required";
+"Your address is required to proceed further" = "Your address is required to proceed further";
+"Time Slot Required" = "Time Slot Required";
+"Select a time slot to proceed further" = "Select a time slot to proceed further";
+"Date Required" = "Date Required";
+"Select a date to proceed further" = "Select a date to proceed further";
+"Wait!" = "Wait!";
+"Please login to continue." = "Please login to continue.";
+"Your address is required to proceed further" = "Your address is required to proceed further";
+"Select a time slot to proceed further" = "Select a time slot to proceed further";
+"Date Required" = "Date Required";
+"Select a date to proceed further" = "Select a date to proceed further";
+"Please login to continue." = "Please login to continue.";
+
+// TrackingViewController
+
+"Tracking" = "Tracking";
+"Distance" = "Distance";
+"Time" = "Time";
+"away from you" = "away from you";
+
+// EditAddressViewController
+
+"Edit Address" = "Edit Address";
+"Select to add Custom Address" = "Select to add Custom Address";
+"CHANGE ADDRESS" = "CHANGE ADDRESS";
+"*Title (eg. Home, Work)" = "*Title (eg. Home, Work)";
+"*Door No" = "*Door No";
+"Landmark" = "Landmark";
+"Validation Failed" = "Validation Failed";
+"Address is required" = "Address is required";
+"Title is required" = "Title is required";
+"Door No. is required" = "Door No. is required";
+"Saving your address..." = "Saving your address...";
+
+// SelectProvidersViewController
+
+"Select a Provider" = "Select a Provider";
+"All Providers" = "All Providers";
+
+
+// AddNewAddressViewController
+
+"Add new address" = "Add new address";
+"Select to add Custom Address" = "Select to add Custom Address";
+"Select to add Custom Address" = "Select to add Custom Address";
+"ADD ADDRESS" = "ADD ADDRESS";
+"*Title (eg. Home, Work)" = "*Title (eg. Home, Work)";
+"*Door No" = "*Door No";
+"Landmark" = "Landmark";
+
+// ProviderProfileViewController
+
+"Address" = "Address";
+"Summary" = "Summary";
+"Other Services" = "Other Services";
+"Reviews" = "Reviews";
+"BOOK NOW" = "BOOK NOW";
+
+// ChatViewController
+
+"Type your message" = "Type your message";
+"Loading..." = "Loading...";
+
+
+// SearchProvidersViewController
+
+"Searching Providers" = "Searching Providers";
+"SERVICE" = "SERVICE";
+"DATE" = "DATE";
+"TIME" = "TIME";
+"ADDRESS" = "ADDRESS";
+"CANCEL SEARCHING" = "CANCEL SEARCHING";
+"Enter the max radius to search for in miles" = "Enter the max radius to search for in miles";
+"eg. 5" = "eg. 5";
+"miles" = "miles";
+"START SEARCHING" = "START SEARCHING";
+"Provider has accepted your request" = "Provider has accepted your request";
+"Our Providers are busy now. Please try again later." = "Our Providers are busy now. Please try again later.";
+"Enter a valid radius to search." = "Enter a valid radius to search.";
+"Validation Failed" = "Validation Failed";
+"Confirm" = "Confirm";
+"Are you sure you want to cancel the search?" = "Are you sure you want to cancel the search?";
+"Cancelling your Request..." = "Cancelling your Request...";
+
+// ConfirmBookingViewController
+
+"Order Confirmation" = "Order Confirmation";
+"PRICE/HR" = "PRICE/HR";
+"DATE" = "DATE";
+"TIME" = "TIME";
+"ADDRESS" = "ADDRESS";
+"CONFIRM BOOKING" = "CONFIRM BOOKING";
+"Sending your request..." = "Sending your request...";
+
+// BookingRequestViewController
+
+"THANK YOU" = "THANK YOU";
+"Your request is sent to the provider. Provider will confirm soon." = "Your request is sent to the provider. Provider will confirm soon.";
+"OKAY" = "OKAY";
+
+
+
+// InvoiceViewController
+
+"PAYMENT METHOD" = "PAYMENT METHOD";
+"INVOICE" = "INVOICE";
+"Coupon Name" = "Coupon Name";
+"Apply Coupon" = "Apply Coupon";
+"Offer Amount" = "Offer Amount";
+"No discount applied" = "No discount applied";
+"Discount" = "Discount";
+"Provider Name" = "Provider Name";
+"Billing Name" = "Billing Name";
+"Booking ID" = "Booking ID";
+"Date" = "Date";
+"Time" = "Time";
+"Working Hours" = "Working Hours";
+"Price" = "Price";
+"Tax" = "Tax";
+"TOTAL" = "TOTAL";
+"Selected Card :" = "Selected Card :";
+"ADD CARD" = "ADD CARD";
+"Change" = "Change";
+"-Nil-" = "-Nil-";
+"Add Coupon" = "Add Coupon";
+"Remove Coupon" = "Remove Coupon";
+"mins" = "mins";
+"Hr" = "Hr";
+"Making your payment..." = "Making your payment...";
+"PAY BY CASH" = "PAY BY CASH";
+"PAY BY CARD" = "PAY BY CARD";
+"Coupon" = "Coupon";
+"Enter your Coupon" = "Enter your Coupon";
+"Cancel" = "Cancel";
+"Enter Your Coupon" = "Enter Your Coupon";
+"Verify Coupon..." = "Verify Coupon...";
+"Remove Coupon..." = "Remove Coupon...";
+"Miscellaneous Details" = "Miscellaneous Details";
+"Tax Details" = "Tax Details";
+
+// WaitingForPaymentConfirmationViewController
+
+"Waiting for Payment Confirmation" = "Waiting for Payment Confirmation";
+"PAYMENT CONFIRMATION" = "PAYMENT CONFIRMATION";
+
+// ReviewViewController
+
+"Give us your rating" = "Give us your rating";
+"Help your provider improve their service by rating them" = "Help your provider improve their service by rating them";
+"Tell us about our service" = "Tell us about our service";
+"Type your comments" = "Type your comments";
+"Get Receipt ?" = "Get Receipt ?";
+"CONFIRM" = "CONFIRM";
+"Loading..." = "Loading...";
+"Please provide a rating" = "Please provide a rating";
+"Thanks for your review." = "Thanks for your review.";
+"Invalid Booking" = "Invalid Booking";
+
+// BookingsViewController
+
+"Pull to refresh" = "Pull to refresh";
+"Confirm" = "Confirm";
+"Are you sure you want to cancel this booking?" = "Are you sure you want to cancel this booking?";
+"Fetching your Bookings..." =  "Fetching your Bookings...";
+"Cancelling your Booking..." = "Cancelling your Booking...";
+"Pending" = "Pending";
+"Rejected" = "Rejected";
+"Accepted" = "Accepted";
+"Cancelled by User" = "Cancelled by User";
+"Cancelled by Provider" = "Cancelled by Provider";
+"On the way" = "On the way";
+"Work in progress" = "Work in progress";
+"Payment pending" = "Payment pending";
+"Review pending" = "Review pending";
+"Job Completed" = "Job Completed";
+
+// WebViewController
+
+"Loading..." = "Loading...";
+
+
+// ChangePasswordViewController
+
+"Validation Failed" = "Validation Failed";
+"Invalid Current Password" = "Invalid Current Password";
+"Passwords do not match!" = "Passwords do not match!";
+"Changing Password..." = "Changing Password...";
+"Failed" = "Failed";
+"Success" = "Success";
+"Password Changed Successfully" = "Password Changed Successfully";
+"OK" = "OK";
+"Oops" = "Oops";
+"Change Password" = "Change Password";
+"CURRENT PASSWORD" = "CURRENT PASSWORD";
+"PASSWORD" = "PASSWORD";
+"CONFIRM PASSWORD" = "CONFIRM PASSWORD";
+"SUBMIT" = "SUBMIT";
+
+// MainViewController
+
+"Bookings" = "Bookings";
+"Home" = "Home";
+"Account" = "Account";
+"Message" = "Message";
+
+// AddNewAddressViewController
+"CONFIRM" = "CONFIRM";
+
+// BookingDetailViewController
+
+"Service Requested" = "Service Requested";
+"Service Accepted" = "Service Accepted";
+"Provider Started to Place" = "Provider Started to Place";
+"Provider Started Job" = "Provider Started Job";
+"Provider Completed Job" = "Provider Completed Job";
+"Service Rejected" = "Service Rejected";
+"Service Cancelled by Provider" = "Service Cancelled by Provider";
+"Service Cancelled by User" = "Service Cancelled by User";

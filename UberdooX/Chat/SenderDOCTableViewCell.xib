@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SenderDOCTableViewCell" rowHeight="103" id="6A2-dI-hOi" customClass="SenderDOCTableViewCell" customModule="Online_Connections" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="407" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6A2-dI-hOi" id="MSq-pj-ar5">
+                <rect key="frame" x="0.0" y="0.0" width="407" height="102.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ycr-13-qyZ">
+                        <rect key="frame" x="0.0" y="0.0" width="407" height="102.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTg-xI-mqi">
+                                <rect key="frame" x="167" y="10" width="190" height="60"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doc" translatesAutoresizingMaskIntoConstraints="NO" id="0XD-gW-3mB">
+                                        <rect key="frame" x="10" y="12.5" width="35" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="E19-RU-cEe"/>
+                                            <constraint firstAttribute="width" secondItem="0XD-gW-3mB" secondAttribute="height" multiplier="1:1" id="XeC-a9-ff8"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="efv-am-cDv">
+                                        <rect key="frame" x="50" y="21.5" width="135" height="17.5"/>
+                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="0XD-gW-3mB" firstAttribute="centerY" secondItem="bTg-xI-mqi" secondAttribute="centerY" id="1I0-EZ-AYr"/>
+                                    <constraint firstAttribute="height" constant="60" id="3JT-sV-fyc"/>
+                                    <constraint firstItem="0XD-gW-3mB" firstAttribute="leading" secondItem="bTg-xI-mqi" secondAttribute="leading" constant="10" id="JCM-Bz-bJI"/>
+                                    <constraint firstAttribute="width" constant="190" id="Kb6-8o-gUs"/>
+                                    <constraint firstAttribute="trailing" secondItem="efv-am-cDv" secondAttribute="trailing" constant="5" id="OSv-fl-p08"/>
+                                    <constraint firstItem="efv-am-cDv" firstAttribute="centerY" secondItem="bTg-xI-mqi" secondAttribute="centerY" id="fcX-pp-uH3"/>
+                                    <constraint firstItem="efv-am-cDv" firstAttribute="leading" secondItem="0XD-gW-3mB" secondAttribute="trailing" constant="5" id="nKf-Ci-dH5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:10 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTE-y8-Id6">
+                                <rect key="frame" x="301" y="75" width="56" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="C2M-JY-SiF"/>
+                                    <constraint firstAttribute="width" constant="56" id="hIq-nz-tB8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Place holder" translatesAutoresizingMaskIntoConstraints="NO" id="XPj-Wt-iCd">
+                                <rect key="frame" x="362" y="10" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Tju-4H-9vy"/>
+                                    <constraint firstAttribute="height" constant="40" id="yxv-jX-Xh0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bTg-xI-mqi" firstAttribute="top" secondItem="ycr-13-qyZ" secondAttribute="top" constant="10" id="3mb-H3-Bhm"/>
+                            <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="jTE-y8-Id6" secondAttribute="bottom" constant="1000" id="Vda-2J-bzM"/>
+                            <constraint firstAttribute="trailing" secondItem="XPj-Wt-iCd" secondAttribute="trailing" constant="5" id="bIf-0M-aZh"/>
+                            <constraint firstAttribute="trailing" secondItem="jTE-y8-Id6" secondAttribute="trailing" constant="50" id="i6F-6R-TTH"/>
+                            <constraint firstItem="jTE-y8-Id6" firstAttribute="top" secondItem="bTg-xI-mqi" secondAttribute="bottom" constant="5" id="piX-re-obk"/>
+                            <constraint firstItem="XPj-Wt-iCd" firstAttribute="top" secondItem="ycr-13-qyZ" secondAttribute="top" constant="10" id="qLV-DD-lOn"/>
+                            <constraint firstItem="XPj-Wt-iCd" firstAttribute="leading" secondItem="bTg-xI-mqi" secondAttribute="trailing" constant="5" id="xZv-Aa-6ht"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ycr-13-qyZ" secondAttribute="trailing" id="BFF-J0-HaQ"/>
+                    <constraint firstItem="ycr-13-qyZ" firstAttribute="top" secondItem="MSq-pj-ar5" secondAttribute="top" id="Dg7-lX-Y5k"/>
+                    <constraint firstItem="ycr-13-qyZ" firstAttribute="leading" secondItem="MSq-pj-ar5" secondAttribute="leading" id="Ucs-cD-9RB"/>
+                    <constraint firstAttribute="bottom" secondItem="ycr-13-qyZ" secondAttribute="bottom" id="ukM-BQ-Woh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="6fZ-X2-rsb"/>
+            <connections>
+                <outlet property="fileNameLbl" destination="efv-am-cDv" id="dBz-1w-pod"/>
+                <outlet property="proImage" destination="XPj-Wt-iCd" id="T8G-DA-6bJ"/>
+                <outlet property="timeLbl" destination="jTE-y8-Id6" id="Ag0-rC-aSi"/>
+            </connections>
+            <point key="canvasLocation" x="207.19999999999999" y="181.25937031484258"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Place holder" width="16" height="16"/>
+        <image name="doc" width="409.60000610351562" height="409.60000610351562"/>
+    </resources>
+</document>
