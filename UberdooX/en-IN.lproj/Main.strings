@@ -50,8 +50,8 @@
 /* Class = "UILabel"; text = "Order Confirmation"; ObjectID = "2vP-NC-xl7"; */
 "2vP-NC-xl7.text" = "Order Confirmation";
 
-/* Class = "UILabel"; text = "$5 per hour"; ObjectID = "358-oj-32I"; */
-"358-oj-32I.text" = "$5 per hour";
+/* Class = "UILabel"; text = "₦5 per hour"; ObjectID = "358-oj-32I"; */
+"358-oj-32I.text" = "₦5 per hour";
 
 /* Class = "UILabel"; text = "CANCELLED BY USER"; ObjectID = "35q-Rn-JHg"; */
 "35q-Rn-JHg.text" = "CANCELLED BY USER";
@@ -167,8 +167,8 @@
 /* Class = "UILabel"; text = "04:00 PM - 06:00 PM"; ObjectID = "BQf-by-TYL"; */
 "BQf-by-TYL.text" = "04:00 PM - 06:00 PM";
 
-/* Class = "UILabel"; text = "$5/Hr"; ObjectID = "BSv-3z-IgU"; */
-"BSv-3z-IgU.text" = "$5/Hr";
+/* Class = "UILabel"; text = "₦5/Hr"; ObjectID = "BSv-3z-IgU"; */
+"BSv-3z-IgU.text" = "₦5/Hr";
 
 /* Class = "UILabel"; text = "Get the best wedding photographer near you and capture your special day to cherish later."; ObjectID = "Bab-6e-0dD"; */
 "Bab-6e-0dD.text" = "Get the best wedding photographer near you and capture your special day to cherish later.";
@@ -182,8 +182,8 @@
 /* Class = "UILabel"; text = "Price"; ObjectID = "CJ5-4F-oME"; */
 "CJ5-4F-oME.text" = "Price";
 
-/* Class = "UILabel"; text = "$500"; ObjectID = "CmH-9M-hup"; */
-"CmH-9M-hup.text" = "$500";
+/* Class = "UILabel"; text = "₦500"; ObjectID = "CmH-9M-hup"; */
+"CmH-9M-hup.text" = "₦500";
 
 /* Class = "UILabel"; text = "12"; ObjectID = "CxT-f4-qXL"; */
 "CxT-f4-qXL.text" = "12";
@@ -434,8 +434,8 @@
 /* Class = "UILabel"; text = "Provider Name"; ObjectID = "Zee-ke-Vub"; */
 "Zee-ke-Vub.text" = "Provider Name";
 
-/* Class = "UILabel"; text = "$4480"; ObjectID = "a5t-oP-AKb"; */
-"a5t-oP-AKb.text" = "$4480";
+/* Class = "UILabel"; text = "₦4480"; ObjectID = "a5t-oP-AKb"; */
+"a5t-oP-AKb.text" = "₦4480";
 
 /* Class = "UILabel"; text = "Price"; ObjectID = "aNE-se-puf"; */
 "aNE-se-puf.text" = "Price";
@@ -707,8 +707,8 @@
 /* Class = "UILabel"; text = "Summary"; ObjectID = "u2b-oS-2mn"; */
 "u2b-oS-2mn.text" = "Summary";
 
-/* Class = "UILabel"; text = "$4000"; ObjectID = "ugg-cr-TjD"; */
-"ugg-cr-TjD.text" = "$4000";
+/* Class = "UILabel"; text = "₦4000"; ObjectID = "ugg-cr-TjD"; */
+"ugg-cr-TjD.text" = "₦4000";
 
 /* Class = "UIButton"; normalTitle = "ADD CARD"; ObjectID = "ulk-6s-bDN"; */
 "ulk-6s-bDN.normalTitle" = "ADD CARD";

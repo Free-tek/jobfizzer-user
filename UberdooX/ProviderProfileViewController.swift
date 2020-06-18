@@ -89,7 +89,7 @@ class ProviderProfileViewController: UIViewController,UITableViewDelegate,UITabl
 //        titleLbl.text = ProviderProfileViewController.providerDetails["name"]?.stringValue
         providerName.text = ProviderProfileViewController.providerDetails["name"]?.stringValue
         ratingLbl.text =  String(format: "%.2f", ProviderProfileViewController.providerDetails["avg_rating"]!.floatValue)
-        priceLbl.text = "$\(String(describing: ProviderProfileViewController.providerDetails["priceperhour"]!.stringValue)) per hour"
+        priceLbl.text = "₦\(String(describing: ProviderProfileViewController.providerDetails["priceperhour"]!.stringValue)) per hour"
         
         scrollView.delegate = self
         
@@ -303,7 +303,7 @@ class ProviderProfileViewController: UIViewController,UITableViewDelegate,UITabl
         {
             let cell = tableView.dequeueReusableCell(withIdentifier: "OtherServicesTableViewCell", for: indexPath) as! OtherServicesTableViewCell
             cell.serviceName.text = ProviderProfileViewController.providerDetails["provider_services"]![indexPath.row]["sub_category_name"].stringValue
-            cell.servicePrice.text = "$\(ProviderProfileViewController.providerDetails["provider_services"]![indexPath.row]["priceperhour"].stringValue)/HR"
+            cell.servicePrice.text = "₦\(ProviderProfileViewController.providerDetails["provider_services"]![indexPath.row]["priceperhour"].stringValue)/HR"
             if UserDefaults.standard.object(forKey: "myColor") != nil
             {
                 //            mycolor = UserDefaults.standard.object(forKey: "mycolor")as! UIColor

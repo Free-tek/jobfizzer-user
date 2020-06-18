@@ -89,7 +89,7 @@ class ConfirmBookingViewController: UIViewController {
         bookingSlot.text = self.timeSlot
         addressLbl.text = self.address["address_line_1"]?.stringValue
         addressTitleLbl.text = "(\(self.address["title"]!.stringValue))"
-        pricing.text = "$\(ProviderProfileViewController.providerDetails["priceperhour"]?.stringValue ?? "0")"
+        pricing.text = "₦\(ProviderProfileViewController.providerDetails["priceperhour"]?.stringValue ?? "0")"
         // Do any additional setup after loading the view.
         
         if let imageName = ProviderProfileViewController.providerDetails["image"]?.string

@@ -494,9 +494,9 @@ class BookingDetailViewController: UIViewController,UITableViewDelegate,UITableV
             
             
 //            vwchat.isHidden = true
-            self.total.text = "$\(bookingDetails["total_cost"]!.stringValue)"
+            self.total.text = "₦\(bookingDetails["total_cost"]!.stringValue)"
             self.tax.text = bookingDetails["gst_cost"]!.stringValue
-            self.price.text = "$\(bookingDetails["cost"]!.stringValue)"
+            self.price.text = "₦\(bookingDetails["cost"]!.stringValue)"
             self.taxLbl.text = "\(bookingDetails["tax_name"]!.stringValue) (\(bookingDetails["gst_percent"]!.stringValue)%)"
             
             

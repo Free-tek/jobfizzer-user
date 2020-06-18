@@ -19,7 +19,7 @@ class ProfileDetailsContentViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let price = "$\(ProviderProfileViewController.providerDetails["priceperhour"]!.stringValue)/HR"
+        let price = "₦\(ProviderProfileViewController.providerDetails["priceperhour"]!.stringValue)/HR"
         priceLbl.text = price
         
         let summary = ProviderProfileViewController.providerDetails["about"]!.stringValue

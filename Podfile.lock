@@ -152,7 +152,7 @@ DEPENDENCIES:
   - SwiftyJSON
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
     - AWSCore
     - AWSS3
@@ -225,9 +225,9 @@ SPEC CHECKSUMS:
   Cosmos: 4a9f57998a08788a1062c7b8eefbc62d2b590f39
   Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
   Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
-  FacebookCore: 74288d0add931d361b1596beae787ab72c438249
-  FacebookLogin: ebcf34714a1cb9f0759d9f071cfb01ed500996cf
-  FacebookShare: 963b4bb1124a64a395b1e428163d70b5774116e8
+  FacebookCore: 50180543ea086d326d064ad0afcb435c0067c0d4
+  FacebookLogin: e8a3688548c56eaa58cf1e205e761f9c90bb7a95
+  FacebookShare: eb813be4e1a65014ae4a6478ca5258aee5fbb04a
   FBSDKCoreKit: fe5f3474499a81963e11e3f3a5c753d0a95ca2b4
   FBSDKLoginKit: 2f7249686d1e30ce8a5ef5400eedf50b3e3df332
   FBSDKShareKit: 52e0083222c38e930eb6878007478326599195c3
@@ -239,7 +239,7 @@ SPEC CHECKSUMS:
   FirebaseMessaging: 3dd86bfda2acb680b05c97f3f8ac566e9bb87b2a
   Floaty: 1a4e213f3512cf3045ef9cb0c1ff456226d1f66a
   GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
-  GooglePlacePicker: 755f10343d71280c7b016823e73fbae9625dfa8a
+  GooglePlacePicker: 2d2b2588512f3a4892ce32d11f373daed2926621
   GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
   GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
   GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
@@ -263,4 +263,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 5ebe88abbfb3caea64f1d011b73b4f87c87af6e4
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4
