@@ -15,7 +15,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -34,7 +34,9 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>4</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
@@ -70,7 +72,7 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Jobfizzer needs to access photo camera to get pictures for visibility to Service Providers. Mean while your Camera won't be accessed without your permission. You can always change this later in your phone’s settings.</string>
+	<string>Jobfizzer needs to access photo camera to get pictures for visibility to Service Providers. Mean while your Camera won&apos;t be accessed without your permission. You can always change this later in your phone’s settings.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Give access to your location to find the service providers around you.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
@@ -80,7 +82,7 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Give access to your location to find the service providers around you.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Jobfizzer  needs to access photo library to get pictures for visibility to Providers. Your photo library  won't be accessed without your permission.</string>
+	<string>Jobfizzer  needs to access photo library to get pictures for visibility to Providers. Your photo library  won&apos;t be accessed without your permission.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Ubuntu-Regular.ttf</string>
@@ -109,5 +111,7 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 </dict>
 </plist>

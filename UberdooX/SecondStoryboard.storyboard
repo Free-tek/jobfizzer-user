@@ -19,7 +19,7 @@
         <!--Biling Details View Controller-->
         <scene sceneID="TCz-fD-TpU">
             <objects>
-                <viewController storyboardIdentifier="BilingDetailsViewController" id="znw-RD-14a" customClass="BilingDetailsViewController" customModule="Jobfizzer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BilingDetailsViewController" modalPresentationStyle="fullScreen" id="znw-RD-14a" customClass="BilingDetailsViewController" customModule="Jobfizzer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y75-aa-KDv"/>
                         <viewControllerLayoutGuide type="bottom" id="gM5-Xj-N3V"/>
@@ -547,7 +547,7 @@
         <!--Booking Detail View Controller-->
         <scene sceneID="0MY-Rf-mqi">
             <objects>
-                <viewController storyboardIdentifier="BookingDetailViewController" id="rVS-2g-SC1" customClass="BookingDetailViewController" customModule="Jobfizzer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BookingDetailViewController" modalPresentationStyle="fullScreen" id="rVS-2g-SC1" customClass="BookingDetailViewController" customModule="Jobfizzer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xlz-zt-08a"/>
                         <viewControllerLayoutGuide type="bottom" id="NNI-87-Pnl"/>
@@ -1154,7 +1154,7 @@
         <!--Search Location View Controller-->
         <scene sceneID="PQ3-tU-km0">
             <objects>
-                <viewController storyboardIdentifier="SearchLocationViewController" automaticallyAdjustsScrollViewInsets="NO" id="3Ks-fG-hDs" customClass="SearchLocationViewController" customModule="Jobfizzer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchLocationViewController" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="3Ks-fG-hDs" customClass="SearchLocationViewController" customModule="Jobfizzer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Drv-OI-P1l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1288,7 +1288,7 @@
         <!--Offline View Controller-->
         <scene sceneID="zy0-B9-gQe">
             <objects>
-                <viewController storyboardIdentifier="OfflineViewController" id="uhl-6m-ZpG" customClass="OfflineViewController" customModule="Jobfizzer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OfflineViewController" modalPresentationStyle="fullScreen" id="uhl-6m-ZpG" customClass="OfflineViewController" customModule="Jobfizzer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JeH-PO-AmP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
